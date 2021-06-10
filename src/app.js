@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-const template = React.createElement('p', {}, 'React Element');
+const template = <p>Hello</p>;
+
 render(template, document.getElementById('app'))
