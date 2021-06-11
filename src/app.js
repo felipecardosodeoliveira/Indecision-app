@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
+import IndecisionApp from './components/IndecisionApp';
 
-const template = <p>Hello</p>;
-
-render(template, document.getElementById('app'))
+render(<IndecisionApp />, document.getElementById('app'));
